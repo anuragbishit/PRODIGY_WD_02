@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="stopwatch">00:00:00</div>
+    <div id="controls">
+        <button onclick="startStop()">Start</button>
+        <button onclick="lap()">Lap</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="toggleMode()">Toggle Mode</button>
+        <label for="customLapDisplay">Custom Lap Display:</label>
+        <input type="text" id="customLapDisplay" placeholder="Enter custom lap display">
+    </div>
+    <div id="lapTimes"></div>
+    <audio id="alertSound" src="alert.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+}
+
+#stopwatch {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input {
+    font-size: 1em;
+    padding: 8px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#lapTimes {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lapEntry {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+#alertSound {
+    display: none;
+}
